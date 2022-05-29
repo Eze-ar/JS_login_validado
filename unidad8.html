@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Ejercicio #3</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <div class="centrado">
+        <h2>Ingreso al Sistema</h2>
+
+        <form action="ingreso.html" method="POST" enctype="application/x-www-form-urlencoded">
+            <div class="elementoForm">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required />
+            </div>
+            <div class="elementoForm">
+                <label for="clave">Clave:</label>
+                <input type="password" id="password" name="lname" required />
+            </div>
+            <div class="elementoForm">
+                <input id="boton" type="submit" value="Ingresar" />
+            </div>
+        </form>
+    </div>
+    <script src="control.js"></script>
+</body>
+
+</html>

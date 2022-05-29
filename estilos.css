@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centrado {
+    /*quick&dirty...but it's work*/
+    margin: auto;
+    width: 20%;
+}
+
+.elementoForm {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+    /*sino pongo esto no me anda el width fijo que deseo*/
+    font-size: larger;
+    width: 8ex;
+}
+
+#boton {
+    padding: 2px;
+    width: 5rem;
+}
